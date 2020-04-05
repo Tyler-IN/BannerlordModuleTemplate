@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Name value="Module Template"/>
+    <Id value="ModuleTemplate"/>
+    <Version value="v0.0.1"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="true"/>
+    <Official value="false"/>
+    <DependedModules/>
+    <SubModules>
+        <SubModule>
+            <Name value="ModuleTemplate"/>
+            <DLLName value="ModuleTemplate.dll"/>
+            <SubModuleClassType value="ModuleTemplate.ModuleTemplateSubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none"/>
+                <Tag key="IsNoRenderModeElement" value="false"/>
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls/>
+</Module>
